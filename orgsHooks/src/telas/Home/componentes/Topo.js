@@ -12,7 +12,7 @@ class Topo extends React.Component {
   };
   atualizaTopo() {
     const retorno = carregaTopo();
-    this.setState({topo: retorno})
+    this.setState({topo: retorno});
   }
 
   componentDidMount() {
@@ -45,10 +45,12 @@ const estilos = StyleSheet.create({
     fontSize: 26,
     lineHeight: 42,
     fontWeight: 'bold',
+    color: "#464646"
   },
   legenda: {
     fontSize: 16,
     lineHeight: 26,
+    color: "#a3a3a3"
   },
 });
 
